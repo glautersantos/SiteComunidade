@@ -12,6 +12,9 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ url_for('contato') }}">Contato</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('perfil') }}">Você está logado(a) como: {{ current_user.username }}</a>
+        </li>
 
       </ul>
       <ul class="d-flex navbar-nav">
